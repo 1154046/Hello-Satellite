@@ -1,23 +1,29 @@
-The README for a code pattern is very prescriptive, use the following template to get you started.
-
 <!-- Put badges at the very top -->
+
 <!-- Change the repo -->
 [![Build Status](https://travis-ci.org/IBM/watson-banking-chatbot.svg?branch=master)](https://travis-ci.org/IBM/watson-banking-chatbot)
 
 <!-- Add a new Title and fill in the blanks -->
-# [Title]
+# Exposing Machine Learning Web Services on IBM Cloud Satellite
 
-In this code pattern, we will learn how to create a web service/batch process using CP4D running on IBM Satellite.
+In this code pattern, we will learn how to create a machine learning web service / batch process using CP4D hosted on RedHat OpenShift running on IBM Satellite.
 
+## IBM CP4D
+
+## IBM Satellite
 
 
 
 When you have completed this code pattern, you will understand how to:
 
-* [goal 1]
-* [goal 2]
-* [goal 3]
-* [goal 4]
+* Setup IBM Cloud Satellite Location
+* Setup IBM Cloud OpenShift on Satellite
+* Create a CP4D project
+* Add custom data into your project
+* Gain insights from your data
+* Create AI models from your data
+* Create a web service / batch process from the model
+* Expose the web service to different technology stacks
 
 <!--add an image in this path-->
 ![architecture](doc/source/images/architecture.png)
@@ -25,14 +31,14 @@ When you have completed this code pattern, you will understand how to:
 <!--Optionally, add flow steps based on the architecture diagram-->
 ## Flow
 
-1. Step 1.
-2. Step 2.
-3. Step 3.
-4. Step 4.
-5. Step 5.
+1. Create a new IBM Cloud Account or Login to an existing IBM Cloud account.
+2. Provision a Sateliite Location.
+3. Provision an OpenShift Cluster.
+4. Deploy CP4D on Satellite.
+5. Create CP4D Project.
 
 <!--Optionally, update this section when the video is created-->
-# Watch the Video
+# Watch the Video 
 
 [![video](http://img.youtube.com/vi/Jxi7U7VOMYg/0.jpg)](https://www.youtube.com/watch?v=Jxi7U7VOMYg)
 
